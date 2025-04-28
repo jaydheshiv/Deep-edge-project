@@ -12,7 +12,7 @@ if st.button("Search"):
             # Step 1: Inform the user we're starting the process
             st.write("Step 1: Searching articles...")
             
-            response = requests.post("http://localhost:5001/query", json={"query": query})
+            response = requests.post("https://own-llm-search-engine.onrender.com/query", json={"query": query})
             response.raise_for_status()  # Will raise an error if the response status is not 200
 
             result = response.json()
