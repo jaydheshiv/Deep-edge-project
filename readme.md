@@ -6,6 +6,10 @@
 This project is designed to create a Retrieval-Augmented Generation (RAG) system using a Large Language Model (LLM). The system integrates with an API to scrape content from the internet and uses an API to serve the LLM-generated answers. A simple front-end interface is provided to interact with the system. 
 Note: ONLY use the packages provided in the requirements.txt file (similar/alternative packages are ok only if they perform similar task/function). 
 
+**Access the Application**
+You can access the application publicly using the following link:
+https://jaydheshiv-deep-edge-project-streamlit-appapp-wqksp4.streamlit.app/
+
 ## Process Overview
 
 1. **User Input via Streamlit Interface**:
