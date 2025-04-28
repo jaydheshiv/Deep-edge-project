@@ -1,0 +1,26 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore Streamlit cache
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Ignore model/vectorstore files if any
+*.faiss
+*.pkl
+*.db
+
+# Ignore uploads or temporary files
+tmp/
+uploads/
